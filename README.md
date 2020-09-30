@@ -1,3 +1,8 @@
+# About
+
+This project is a part of our [YouTube tutorial](https://www.youtube.com/watch?v=7Bv5zJY2jAE&) on how to make a production ready ngrx "seed-project" by analyzing official ngrx example project. 
+For more tutorials and courses check the official webpage [www.applicableprogramming.com](https://www.applicableprogramming.com)
+
 # NgrxSetup
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.

@@ -1,22 +1,32 @@
 import { Component, OnInit } from '@angular/core';
 import {select, Store} from "@ngrx/store";
-import * as fromLayout from '../../reducers';
+import * as fromProducts from '../reducers';
 import {Observable} from "rxjs";
+import {GoogleBooksService} from "../services/google-books.service";
+import {Product} from "../model/product";
 
 @Component({
   selector: 'app-list-display',
   template: `
-    <app-list [searchValue]="searchValue$ | async"></app-list>
+    <app-list
+      [searchValue]="searchValue$ | async"
+      [products]="products$ | async"
+    ></app-list>
   `,
   styles: [
   ]
 })
 export class ListDisplayComponent implements OnInit {
   searchValue$: Observable<String>;
+  private products$: Observable<Product[]>;
 
-  constructor(private store: Store<fromLayout.State>) {
+  constructor(
+    private store: Store<fromProducts.State>,
+  ) {
 
-    this.searchValue$ = store.pipe(select(fromLayout.selectSearchStateValue));
+    this.products$ = store.pipe(select(fromProducts.selectProducts));
+    this.searchValue$ = store.pipe(select(fromProducts.selectProductSearch));
+
   }
 
   ngOnInit(): void {

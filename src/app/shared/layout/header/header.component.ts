@@ -15,10 +15,10 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+/*
   searchFieldChanged(value: string) {
 
     this.store.dispatch(LayoutActions.typeInTheSearch({ searchValue:value }));
     console.log(value);
-  }
+  }*/
 }

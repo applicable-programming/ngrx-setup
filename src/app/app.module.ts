@@ -9,6 +9,8 @@ import {ROOT_REDUCERS} from "./reducers";
 import {StoreRouterConnectingModule} from "@ngrx/router-store";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {localStorageSync} from "ngrx-store-localstorage";
+import {HttpClientModule} from "@angular/common/http";
+import {EffectsModule} from "@ngrx/effects";
 
 
 
@@ -26,6 +28,7 @@ const metaReducers: Array<MetaReducer<any, any>> = [localStorageSyncReducer];
         BrowserModule,
         AppRoutingModule,
         LayoutModule,
+        HttpClientModule,
 
       /**
        * StoreModule.forRoot is imported once in the root module, accepting a reducer
@@ -60,6 +63,14 @@ const metaReducers: Array<MetaReducer<any, any>> = [localStorageSyncReducer];
         // logOnly: environment.production,
       }),
 
+      /**
+       * EffectsModule.forRoot() is imported once in the root module and
+       * sets up the effects class to be initialized immediately when the
+       * application starts.
+       *
+       * See: https://ngrx.io/guide/effects#registering-root-effects
+       */
+      EffectsModule.forRoot([]),
 
     ],
   providers: [],

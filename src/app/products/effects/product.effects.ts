@@ -1,7 +1,7 @@
 import {GoogleBooksService} from "../services/google-books.service";
 import {Injectable} from "@angular/core";
-import {asyncScheduler, of} from "rxjs";
-import {catchError, debounceTime, map, switchMap} from "rxjs/operators";
+import {of} from "rxjs";
+import {catchError, map, switchMap} from "rxjs/operators";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
 import {Product} from "../model/product";
 import {ProductsActions} from "../actions";
@@ -17,7 +17,14 @@ export class ProductEffects {
         switchMap(({ query }) => {
 
           return this.googleBooks.searchProducts(query).pipe(
-            map((products: Product[]) => ProductsActions.searchSuccess({ products })),
+            map((products: Product[]) => ProductsActions.searchSuccess({
+              products: products.map(remoteProduct => {
+                let localProduct = {} as Product;
+                localProduct.id = remoteProduct.id;
+                localProduct.volumeInfo = remoteProduct.volumeInfo;
+                return localProduct;
+              })
+            })),
             catchError((err) =>
               of(ProductsActions.searchFailure({ errorMsg: err.message }))
             )

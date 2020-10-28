@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {LayoutActions} from "../../../shared/layout/actions";
-import {ProductsActions} from "../../actions";
+import {ProductReadingListActions, ProductsActions} from "../../actions";
 import {Store} from "@ngrx/store";
 import * as fromProducts from '../../reducers';
 import {Product} from "../../model/product";
@@ -28,4 +27,12 @@ export class ListComponent implements OnInit {
     console.log(value);
   }
 
+  addToReadingList(product: Product) {
+    this.store.dispatch(ProductReadingListActions.addToReadingList({ product }));
+  }
+
+  removeFromReadingList(product: Product) {
+    this.store.dispatch(ProductReadingListActions.removeFromReadingList({ productId: product.id }));
+
+  }
 }

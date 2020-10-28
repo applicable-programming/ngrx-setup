@@ -1,5 +1,5 @@
 import * as fromProducts from './products.reducer';
-import {productsFeatureKey} from './products.reducer';
+import * as fromProductReadingList from './products-reading-list.reducer';
 import * as fromRoot from '../../reducers';
 import {Action, combineReducers, createFeatureSelector, createSelector} from "@ngrx/store";
 
@@ -8,6 +8,7 @@ export const productsModuleFeatureKey = 'productsModule';
 
 export interface ProductState {
   [fromProducts.productsFeatureKey]: fromProducts.State;
+  [fromProductReadingList.productReadingListFeatureKey]: fromProductReadingList.State;
 }
 
 export interface State extends fromRoot.State {
@@ -18,6 +19,7 @@ export interface State extends fromRoot.State {
 export function reducers(state: ProductState | undefined, action: Action) {
   return combineReducers({
     [fromProducts.productsFeatureKey]: fromProducts.reducer,
+    [fromProductReadingList.productReadingListFeatureKey]: fromProductReadingList.reducer
   })(state, action);
 }
 

@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {select, Store} from "@ngrx/store";
 import * as fromProducts from '../reducers';
 import {Observable} from "rxjs";
-import {GoogleBooksService} from "../services/google-books.service";
 import {Product} from "../model/product";
 
 @Component({
@@ -18,7 +17,7 @@ import {Product} from "../model/product";
 })
 export class ListDisplayComponent implements OnInit {
   searchValue$: Observable<String>;
-  private products$: Observable<Product[]>;
+  products$: Observable<Product[]>;
 
   constructor(
     private store: Store<fromProducts.State>,

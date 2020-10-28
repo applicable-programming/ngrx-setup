@@ -8,4 +8,6 @@
   <h3>{{ product.volumeInfo.title }}</h3>
   <p>{{ product.volumeInfo.subtitle }}</p>
   <img [src]="product.volumeInfo?.imageLinks?.smallThumbnail" />
+  <button type="button" (click)="addToReadingList(product)" >Add to reading list</button>
+  <button type="button" (click)="removeFromReadingList(product)" >Remove from reading list</button>
 </div>

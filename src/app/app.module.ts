@@ -11,7 +11,13 @@ import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {localStorageSync} from "ngrx-store-localstorage";
 import {HttpClientModule} from "@angular/common/http";
 import {EffectsModule} from "@ngrx/effects";
+import {entityConfig} from "../entity-metadata";
+import {DefaultDataServiceConfig, EntityDataModule} from "@ngrx/data";
 
+
+const customDataServiceConfig: DefaultDataServiceConfig = {
+  root: 'http://localhost:3000/'
+}
 
 
 export function localStorageSyncReducer(reducer: ActionReducer<any>): ActionReducer<any> {
@@ -37,9 +43,7 @@ const metaReducers: Array<MetaReducer<any, any>> = [localStorageSyncReducer];
        * meta-reducer. This returns all providers for an @ngrx/store
        * based application.
        */
-      StoreModule.forRoot(ROOT_REDUCERS,
-        {metaReducers}
-        ),
+      StoreModule.forRoot({}),
 
       /**
        * @ngrx/router-store keeps router state up-to-date in the store.
@@ -72,8 +76,13 @@ const metaReducers: Array<MetaReducer<any, any>> = [localStorageSyncReducer];
        */
       EffectsModule.forRoot([]),
 
+
+      EntityDataModule.forRoot(entityConfig)
+
     ],
-  providers: [],
+  providers: [
+    { provide: DefaultDataServiceConfig, useValue: customDataServiceConfig}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

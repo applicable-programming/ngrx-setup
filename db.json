@@ -1,0 +1,362 @@
+{
+  "products": [
+    {
+      "kind": "books#volume",
+      "id": "DioLEAAAQBAJ",
+      "etag": "zx4h/psy3TI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DioLEAAAQBAJ",
+      "volumeInfo": {
+        "title": "NgRx: Reactive State Management for Angular",
+        "authors": [
+          "Nils Mehlhorn"
+        ],
+        "publisher": "Nils Mehlhorn",
+        "publishedDate": "2020-11-24",
+        "description": "Learn how to structure your application state, describe events with actions and perform deterministic state transitions with reducers. State management with NgRx follows the Redux pattern and is used by hundreds of companies to build maintainable Angular applications. In combination with TypeScript and RxJS it empowers you to write testable business logic and explicit side-effects for talking to servers through HTTP or WebSockets. With immutability as a core concept you also gain performance benefits, eventually giving you the best of both worlds: lightning fast applications that are easy to maintain and grow. We'll be building an example application with the most recent versions of Angular & NgRx while getting to know all aspects of NgRx, how they fit together and which best practices you should apply. The code examples in the book are accompanied by a hosted repository where you can follow along each step of the way and jump into live demos in the browser.",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 151,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DioLEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DioLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.no/books?id=DioLEAAAQBAJ&pg=PA13&dq=ngrx&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.no/books?id=DioLEAAAQBAJ&dq=ngrx&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/NgRx_Reactive_State_Management_for_Angul.html?hl=&id=DioLEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "NO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DioLEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>NgRx</b>. Is. Not. Just. A. Store. ThetermNgRx isoften <br>\nusedsynonymouslywithitsstoresolution,butit&#39;smorethanthat. Nowadays, the <br>\nNgRxprojectalsoprovidesotherlibrarieswhich, <br>\nwhiletheyworkwellincombinationwiththestore, can be used&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xn8IEAAAQBAJ",
+      "etag": "sNOMO3S+dZk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xn8IEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Reactive State for Angular with NgRx",
+        "subtitle": "Learn to build Reactive Angular Applications using NgRx",
+        "authors": [
+          "Amit Gharat\t"
+        ],
+        "publisher": "BPB Publications",
+        "publishedDate": "2020-11-12",
+        "description": "Learn how to build a Reactive Application with Ngrx and Angular KEY FEATURES Learn how to create your own minimalistic Redux implementation. Get familiar with the working of NgRx Store. Learn how to handle asynchronous events without breaking Redux paradigm using NgRx Effects. Learn how to manage router state using NgRx Router Store. Deal with a list of records using an entity state adapter pattern using NgRx Entity. DESCRIPTION This book will help you learn NgRx in and out. We will start by discussing the fundamental ideas that underpin the design for the centralized store and the need for state management in Angular. We will then learn about the Redux paradigm and the three rules it governs. Along the way, we will explore various Redux terminologies in terms of action, dispatcher, and reducer and will then create our minimalistic version of Redux. We will have a dedicated chapter that paves the way for an Angular application in which we will be integrating NgRx throughout the book. We will also work with Redux Devtools, which will be crucial to debugging NgRx. The book also focuses on the creation of the NgRx Store using @ngrx/schematics and hooking it up in the sample Angular application we built previously. Till here, the sample Angular application is purely relying on NgRx to read/write the application state except for the router state. Next, we will leverage the NgRx Router Store to bring the router state under the radar of NgRx as well so that the entire sample Angular application would be using a single source of truth in terms of NgRx for any application data. Towards the end, we will optimize the list of records using a proven entity state adapter pattern via NgRx Entity to interact with such records at the individual level to be efficient and performant. WHAT WILL YOU LEARN Learn the fundamentals of State Management. Learn how NgRx works under the hood and make your Angular applications truly reactive. Learn how to handle asynchronous events with NgRx Effects. Learn how to use record collection using NgRx Entity. Learn advanced Angular application using Angular/Material/NgRx/RxJS/TypeScript. Get acquainted with the knowledge to understand any other state management library. WHO THIS BOOK IS FOR Beginners, as well as Experienced Angular developers who want to write sustainable Angular applications over time, will benefit from this book. This book is for anyone interested in State Management with NgRx in Angular. TABLE OF CONTENTS 1 Redux Principles for ROCK solid application state 2 Setting up NgRx in Angular 3 NgRx Store 4 NgRx Effects 5 NgRx Router Store 6 NgRx Entity State",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789389898248"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9389898242"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 188,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xn8IEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xn8IEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.no/books?id=xn8IEAAAQBAJ&pg=PT93&dq=ngrx&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NO",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 93.28,
+          "currencyCode": "NOK"
+        },
+        "retailPrice": {
+          "amount": 93.28,
+          "currencyCode": "NOK"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ&rdid=book-xn8IEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 93280000,
+              "currencyCode": "NOK"
+            },
+            "retailPrice": {
+              "amountInMicros": 93280000,
+              "currencyCode": "NOK"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.no/books/download/Reactive_State_for_Angular_with_NgRx-sample-epub.acsm?id=xn8IEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.no/books/download/Reactive_State_for_Angular_with_NgRx-sample-pdf.acsm?id=xn8IEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xn8IEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "We will understand the concept behind the root store and create our very first root <br>\nstore in <b>NgRx</b> to integrate it into the sample application that we built in the <br>\nprevious chapter. We will also learn about the feature store and how/why it is <br>\ndifferent&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "123654",
+      "etag": "4nvGtcYiqW4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xn8IEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Reactive State for Angular with NgRx",
+        "subtitle": "Learn to build Reactive Angular Applications using NgRx",
+        "authors": [
+          "Amit Gharat\t"
+        ],
+        "publisher": "BPB Publications",
+        "publishedDate": "2020-11-12",
+        "description": "Learn how to build a Reactive Application with Ngrx and Angular KEY FEATURES Learn how to create your own minimalistic Redux implementation. Get familiar with the working of NgRx Store. Learn how to handle asynchronous events without breaking Redux paradigm using NgRx Effects. Learn how to manage router state using NgRx Router Store. Deal with a list of records using an entity state adapter pattern using NgRx Entity. DESCRIPTION This book will help you learn NgRx in and out. We will start by discussing the fundamental ideas that underpin the design for the centralized store and the need for state management in Angular. We will then learn about the Redux paradigm and the three rules it governs. Along the way, we will explore various Redux terminologies in terms of action, dispatcher, and reducer and will then create our minimalistic version of Redux. We will have a dedicated chapter that paves the way for an Angular application in which we will be integrating NgRx throughout the book. We will also work with Redux Devtools, which will be crucial to debugging NgRx. The book also focuses on the creation of the NgRx Store using @ngrx/schematics and hooking it up in the sample Angular application we built previously. Till here, the sample Angular application is purely relying on NgRx to read/write the application state except for the router state. Next, we will leverage the NgRx Router Store to bring the router state under the radar of NgRx as well so that the entire sample Angular application would be using a single source of truth in terms of NgRx for any application data. Towards the end, we will optimize the list of records using a proven entity state adapter pattern via NgRx Entity to interact with such records at the individual level to be efficient and performant. WHAT WILL YOU LEARN Learn the fundamentals of State Management. Learn how NgRx works under the hood and make your Angular applications truly reactive. Learn how to handle asynchronous events with NgRx Effects. Learn how to use record collection using NgRx Entity. Learn advanced Angular application using Angular/Material/NgRx/RxJS/TypeScript. Get acquainted with the knowledge to understand any other state management library. WHO THIS BOOK IS FOR Beginners, as well as Experienced Angular developers who want to write sustainable Angular applications over time, will benefit from this book. This book is for anyone interested in State Management with NgRx in Angular. TABLE OF CONTENTS 1 Redux Principles for ROCK solid application state 2 Setting up NgRx in Angular 3 NgRx Store 4 NgRx Effects 5 NgRx Router Store 6 NgRx Entity State",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789389898248"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9389898242"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 188,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xn8IEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xn8IEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.no/books?id=xn8IEAAAQBAJ&printsec=frontcover&dq=ngrx&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NO",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 93.28,
+          "currencyCode": "NOK"
+        },
+        "retailPrice": {
+          "amount": 93.28,
+          "currencyCode": "NOK"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xn8IEAAAQBAJ&rdid=book-xn8IEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 93280000,
+              "currencyCode": "NOK"
+            },
+            "retailPrice": {
+              "amountInMicros": 93280000,
+              "currencyCode": "NOK"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.no/books/download/Reactive_State_for_Angular_with_NgRx-sample-epub.acsm?id=xn8IEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.no/books/download/Reactive_State_for_Angular_with_NgRx-sample-pdf.acsm?id=xn8IEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xn8IEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Learn how to manage router state using NgRx Router Store. Deal with a list of records using an entity state adapter pattern using NgRx Entity. DESCRIPTION This book will help you learn NgRx in and out."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "z-8BEAAAQBAJ",
+      "etag": "DIb/ARhEgn0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/z-8BEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Angular",
+        "subtitle": "Grundlagen, fortgeschrittene Themen und Best Practices – inkl. RxJS, NgRx und PWA",
+        "authors": [
+          "Ferdinand Malcher",
+          "Johannes Hoppe",
+          "Danny Koppenhagen"
+        ],
+        "publisher": "dpunkt.verlag",
+        "publishedDate": "2020-10-08",
+        "description": "Der bewährte Einstieg in Angular – gut erklärt und praxisnah Mit einem anspruchsvollen Beispielprojekt führen Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen Sie durch die Welt von Angular. Lernen Sie von ihnen Schritt für Schritt, wie Sie modulare Single-Page-Anwendungen entwickeln. Die Autoren sind erfahrene Workshopleiter, Entwickler und internationale Konferenzsprecher. Aufgrund ihres Engagements rund um das Buch und Angular wurden Ferdinand und Johannes als Google Developer Experts (GDE) ausgezeichnet. In diesem praktischen Nachschlagewerk vermitteln sie die Best Practices aus ihrer täglichen Arbeit mit Angular. Praktisch: Der Programmcode zu jeder einzelnen Entwicklungsphase ist auf GitHub verfügbar. So können Sie alle Schritte gut nachvollziehen und auch Teile überspringen. Behandelt werden unter anderem folgende Themen: - Reaktive Programmierung mit RxJS - State Management mit Redux und NgRx - Testing mit Jasmine, Karma und Protractor - Routing, Guards und Modulsystem - HTTP und Interceptoren - Formularverarbeitung - Dependency Injection und Services - Internationalisierung (i18n) - Server-Side Rendering - Progressive Web Apps (PWA) und NativeScript Das Buch setzt Vorkenntnisse in JavaScript, HTML und CSS voraus. Wer noch nicht mit TypeScript vertraut ist, findet hier eine kompakte Einführung. Auf der Website zum Buch werden außerdem regelmäßig Aktualisierungen und Neuigkeiten rund um Angular veröffentlicht. Neu in dieser Auflage - Durchgängig aktualisiert auf Angular 10 und neuere Versionen - Deployment mit Docker Progressive Web Apps (PWA) - Angular Elements - OAuth 2 und OpenID Connect - Viele Ergänzungen und Korrekturen",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783969100813"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "396910081X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 872,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=z-8BEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=z-8BEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.no/books?id=z-8BEAAAQBAJ&printsec=frontcover&dq=ngrx&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=z-8BEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=z-8BEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "NO",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 329,
+          "currencyCode": "NOK"
+        },
+        "retailPrice": {
+          "amount": 329,
+          "currencyCode": "NOK"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=z-8BEAAAQBAJ&rdid=book-z-8BEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 329000000,
+              "currencyCode": "NOK"
+            },
+            "retailPrice": {
+              "amountInMicros": 329000000,
+              "currencyCode": "NOK"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "NO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.no/books/download/Angular-sample-pdf.acsm?id=z-8BEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=z-8BEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Der bewährte Einstieg in Angular – gut erklärt und praxisnah Mit einem anspruchsvollen Beispielprojekt führen Ferdinand Malcher, Johannes Hoppe und Danny Koppenhagen Sie durch die Welt von Angular."
+      }
+    }
+  ]
+}

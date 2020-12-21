@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {select, Store} from "@ngrx/store";
-import * as fromProducts from '../reducers';
 import {Observable} from "rxjs";
 import {Product} from "../model/product";
+import {ProductService} from "../services/product.service";
 
 @Component({
   selector: 'app-list-display',
@@ -18,17 +18,19 @@ import {Product} from "../model/product";
 export class ListDisplayComponent implements OnInit {
   searchValue$: Observable<String>;
   products$: Observable<Product[]>;
+  private loading$: Observable<boolean> | Store<boolean>;
 
   constructor(
-    private store: Store<fromProducts.State>,
+    private productService: ProductService
   ) {
 
-    this.products$ = store.pipe(select(fromProducts.selectProducts));
-    this.searchValue$ = store.pipe(select(fromProducts.selectProductSearch));
+    this.products$ = productService.entities$;
+    this.loading$ = productService.loading$;
 
   }
 
   ngOnInit(): void {
+    this.productService.getWithQuery({q: 'ngrx'});
   }
 
 
